@@ -1,0 +1,15 @@
+header {
+    text-align: center;
+}
+
+h1,h2,h3,h4, p {
+    margin: var(--margin-text);
+}
+
+h1,h2,h3,h4 {
+    font-family: var(--font-heading, serif);
+}
+
+p {
+    font-family: var(--font-text, sans-serif);
+}

@@ -1,0 +1,19 @@
+.site-header {
+    text-align: center;
+    margin: var(--margin-text);
+}
+
+.site-header h1 {
+    font-size: var(--head1-size);
+}
+
+.content h3 {
+    font-size: var(--head3-size);
+    font-style: italic;
+    margin: var(--margin-text);
+}
+
+.content p {
+    font-size: var(--p-size);
+    margin: var(--margin-text);
+}

@@ -1,0 +1,15 @@
+@import url('reset.css');
+@import url('typography.css');
+@import url('variables.css');
+
+body {
+    padding: 2rem;
+}
+
+section ul {
+    padding-left: 3rem;
+}
+
+section ul li {
+    padding-left: 0.5rem;
+}

@@ -1,0 +1,21 @@
+:root {
+    --font-size-base: 12px;
+    --font-size-tablet: 14px;
+    --font-size-laptop: 16px;
+    --font-size-desktop: 18px;
+
+    --head1-size: 30px;
+    --head2-size: 20px;
+    --p-size: 16px;
+
+    --margin-text: 1rem 0;
+
+    --color-text-main: #275468;
+    --color-text-alternative: #FFC701;
+    --color-background-main: #ffffff;
+
+    --font-heading: 'PT Serif';
+    --font-text: 'PT Sans';
+
+    
+}
