@@ -1,0 +1,77 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+
+ul li {
+    list-style: none outside;
+    position: relative;
+    margin-bottom: 0.5rem;
+    animation: slide-in linear;
+    animation-fill-mode: both;
+    animation-duration: 0.3s;
+    
+}
+
+li::before {
+    position: absolute;
+    top: 0; left: -30px;
+    content: '';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.fa-house-damage {
+    content: '\f6f1';
+    animation-delay: 0.25s;
+}
+
+.fa-sitemap {
+    content: '\f0e8';
+    animation-delay: 0.55s;
+}
+
+.fa-concierge-bell {
+    content: '\f562';
+    animation-delay: 0.85s;
+}
+
+.fa-building {
+    content: '\f1ad';
+    animation-delay: 1.15s;
+}
+
+.fa-file-signature {
+    content: '\f573';
+    animation-delay: 1.45s;
+}
+
+.fa-user-tie {
+    content: '\f508';
+    animation-delay: 1.75s;
+}
+
+.fa-shopping-cart {
+    content: '\f07a';
+    animation-delay: 2.05s;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+        
+    }
+
+    100% {
+        transform: translateX(0);
+       opacity: 1;
+    }
+    
+}
