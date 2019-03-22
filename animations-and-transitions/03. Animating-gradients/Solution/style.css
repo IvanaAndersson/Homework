@@ -1,0 +1,41 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gradient {
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.gradient:before,
+.gradient:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+}
+
+.gradient:before {
+    background: linear-gradient(to bottom, rgba(0,0,250,0.9), rgba(0,0,250,0.2));
+}
+
+
+.gradient:after {
+    background: linear-gradient(to bottom, rgba(255, 196, 0, 0.9), rgba(255,196,0,0.2));
+    transition: opacity 0.5s ease-in-out 0.2s;
+}
+
+.gradient:hover::after{
+    opacity: 0;
+}
