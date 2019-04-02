@@ -1,0 +1,44 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "head head head"
+    "main main sidebar"
+    "footer footer footer";
+    grid-gap: 2rem;
+}
+
+header, main, aside, footer {
+    background: #000;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 0.2rem;
+}
+
+header {
+    grid-area: head;
+}
+
+footer {
+    grid-area: footer;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        grid-template-columns: none;
+        grid-template-areas: 
+        "head"
+        "main"
+        "sidebar"
+        "footer";
+        
+    }
+}

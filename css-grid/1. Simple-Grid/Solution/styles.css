@@ -1,0 +1,12 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+}
+
+div{
+    background: #000;
+    color: #fff;
+    border-radius: 0.3rem;
+    padding: 1.5rem;
+}
